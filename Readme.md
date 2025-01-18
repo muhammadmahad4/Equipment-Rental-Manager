@@ -6,192 +6,44 @@ This project is an Equipment Management System that allows users to manage equip
 
 ```
 .
-├── 
-
-Club.java
-
-
+├── Club.java
 ├── Cmd
-│   ├── 
-
-CmdArrive.java
-
-
-│   ├── 
-
-CmdBorrow.java
-
-
-│   ├── 
-
-CmdCreate.java
-
-
-│   ├── 
-
-CmdListEquipment.java
-
-
-│   ├── 
-
-CmdListEquipmentStatus.java
-
-
-│   ├── 
-
-CmdListMembers.java
-
-
-│   ├── 
-
-CmdListMemberStatus.java
-
-
-│   ├── 
-
-CmdRegister.java
-
-
-│   ├── 
-
-CmdRequest.java
-
-
-│   ├── 
-
-CmdStartNewDay.java
-
-
-├── 
-
-Command.java
-
-
-├── 
-
-Day.java
-
-
-├── 
-
-Equipment.java
-
-
-├── 
-
-EquipmentSet.java
-
-
-├── 
-
-ExEquipmentCodeAlreadyInUse.java
-
-
-├── 
-
-ExEquipmentCodeNotFound.java
-
-
-├── 
-
-ExEquipmentNotFound.java
-
-
-├── 
-
-ExInsufficientCommands.java
-
-
-├── 
-
-ExInvalidFormat.java
-
-
-├── 
-
-ExMemberAlreadyBorrowedThisEquipment.java
-
-
-├── 
-
-ExMemberIDinUse.java
-
-
-├── 
-
-ExMemberNotFound.java
-
-
-├── 
-
-ExNoEquipmentSetAvailable.java
-
-
-├── 
-
-ExNoOfDaysMustBeInteger.java
-
-
-├── 
-
-ExNotLater.java
-
-
-├── 
-
-ExPeriodIsLessThan.java
-
-
-├── 
-
-ExPeriodOverLapRequest.java
-
-
-├── 
-
-ExPeriodOverlapsBorrow.java
-
-
-├── 
-
-ExUnknownCommand.java
-
-
-├── 
-
-Main.java
-
-
-├── 
-
-Member.java
-
-
-├── 
-
-RecordedCommand.java
-
-
-├── 
-
-Request.java
-
-
-├── 
-
-SystemDate.java
-
-
-├── 
-
-test.txt
-
-
-├── 
-
-testing.txt
-
-
+│   ├── CmdArrive.java
+│   ├── CmdBorrow.java
+│   ├── CmdCreate.java
+│   ├── CmdListEquipment.java
+│   ├── CmdListEquipmentStatus.java
+│   ├── CmdListMembers.java
+│   ├── CmdListMemberStatus.java
+│   ├── CmdRegister.java
+│   ├── CmdRequest.java
+│   ├── CmdStartNewDay.java
+├── Command.java
+├── Day.java
+├── Equipment.java
+├── EquipmentSet.java
+├── ExEquipmentCodeAlreadyInUse.java
+├── ExEquipmentCodeNotFound.java
+├── ExEquipmentNotFound.java
+├── ExInsufficientCommands.java
+├── ExInvalidFormat.java
+├── ExMemberAlreadyBorrowedThisEquipment.java
+├── ExMemberIDinUse.java
+├── ExMemberNotFound.java
+├── ExNoEquipmentSetAvailable.java
+├── ExNoOfDaysMustBeInteger.java
+├── ExNotLater.java
+├── ExPeriodIsLessThan.java
+├── ExPeriodOverLapRequest.java
+├── ExPeriodOverlapsBorrow.java
+├── ExUnknownCommand.java
+├── Main.java
+├── Member.java
+├── RecordedCommand.java
+├── Request.java
+├── SystemDate.java
+├── test.txt
+├── testing.txt
 ```
 
 ## How to Run
@@ -229,76 +81,19 @@ testing.txt
 ## Exception Handling
 
 The system handles various exceptions to ensure robust operation:
-- 
 
-ExMemberIDinUse
-
-
-- 
-
-ExInsufficientCommands
-
-
-- 
-
-ExInvalidFormat
-
-
-- 
-
-ExNotLater
-
-
-- 
-
-ExMemberNotFound
-
-
-- 
-
-ExEquipmentNotFound
-
-
-- 
-
-ExEquipmentCodeAlreadyInUse
-
-
-- 
-
-ExEquipmentCodeNotFound
-
-
-- 
-
-ExNoEquipmentSetAvailable
-
-
-- 
-
-ExMemberAlreadyBorrowedThisEquipment
-
-
-- 
-
-ExPeriodOverLapRequest
-
-
-- 
-
-ExPeriodOverlapsBorrow
-
-
-- 
-
-ExPeriodIsLessThan
-
-
-- 
-
-ExNoOfDaysMustBeInteger
-
-
-- 
-
-ExUnknownCommand
+- `ExMemberIDinUse`
+- `ExInsufficientCommands`
+- `ExInvalidFormat`
+- `ExNotLater`
+- `ExMemberNotFound`
+- `ExEquipmentNotFound`
+- `ExEquipmentCodeAlreadyInUse`
+- `ExEquipmentCodeNotFound`
+- `ExNoEquipmentSetAvailable`
+- `ExMemberAlreadyBorrowedThisEquipment`
+- `ExPeriodOverLapRequest`
+- `ExPeriodOverlapsBorrow`
+- `ExPeriodIsLessThan`
+- `ExNoOfDaysMustBeInteger`
+- `ExUnknownCommand`
